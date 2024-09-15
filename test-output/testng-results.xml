@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-14T19:54:03 IST" name="Suite1" finished-at="2024-09-14T19:54:04 IST" duration-ms="1694">
+    <groups>
+      <group name="sanity">
+        <method signature="Test2.m2()[pri:0, instance:Package1.Test2@1eba372c]" name="m2" class="Package1.Test2"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-09-14T19:54:03 IST" name="TestPACK1" finished-at="2024-09-14T19:54:03 IST" duration-ms="458">
+      <class name="Package2.Test1">
+        <test-method is-config="true" signature="BefTest1()[pri:0, instance:Package2.Test1@3bde62ff]" started-at="2024-09-14T19:54:03 IST" name="BefTest1" finished-at="2024-09-14T19:54:03 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BefTest1 -->
+        <test-method signature="m1()[pri:0, instance:Package2.Test1@3bde62ff]" started-at="2024-09-14T19:54:03 IST" name="m1" finished-at="2024-09-14T19:54:03 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method is-config="true" signature="BefTest1()[pri:0, instance:Package2.Test1@3bde62ff]" started-at="2024-09-14T19:54:03 IST" name="BefTest1" finished-at="2024-09-14T19:54:03 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BefTest1 -->
+        <test-method signature="m3()[pri:0, instance:Package2.Test1@3bde62ff]" started-at="2024-09-14T19:54:03 IST" name="m3" finished-at="2024-09-14T19:54:03 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+      </class> <!-- Package2.Test1 -->
+      <class name="Package1.Test1">
+        <test-method signature="m1()[pri:0, instance:Package1.Test1@5118388b]" started-at="2024-09-14T19:54:03 IST" name="m1" finished-at="2024-09-14T19:54:03 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method is-config="true" signature="aftMeth()[pri:0, instance:Package1.Test1@5118388b]" started-at="2024-09-14T19:54:03 IST" name="aftMeth" finished-at="2024-09-14T19:54:03 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMeth -->
+        <test-method signature="m3(java.lang.String,java.lang.String)[pri:0, instance:Package1.Test1@5118388b]" started-at="2024-09-14T19:54:03 IST" name="m3" data-provider="dataP1" finished-at="2024-09-14T19:54:03 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Avinash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method is-config="true" signature="aftMeth()[pri:0, instance:Package1.Test1@5118388b]" started-at="2024-09-14T19:54:03 IST" name="aftMeth" finished-at="2024-09-14T19:54:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMeth -->
+        <test-method signature="m3(java.lang.String,java.lang.String)[pri:0, instance:Package1.Test1@5118388b]" started-at="2024-09-14T19:54:03 IST" name="m3" data-provider="dataP1" finished-at="2024-09-14T19:54:03 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method is-config="true" signature="aftMeth()[pri:0, instance:Package1.Test1@5118388b]" started-at="2024-09-14T19:54:03 IST" name="aftMeth" finished-at="2024-09-14T19:54:03 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMeth -->
+        <test-method signature="m3(java.lang.String,java.lang.String)[pri:0, instance:Package1.Test1@5118388b]" started-at="2024-09-14T19:54:03 IST" name="m3" data-provider="dataP1" finished-at="2024-09-14T19:54:03 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jerry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method is-config="true" signature="aftMeth()[pri:0, instance:Package1.Test1@5118388b]" started-at="2024-09-14T19:54:03 IST" name="aftMeth" finished-at="2024-09-14T19:54:03 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMeth -->
+      </class> <!-- Package1.Test1 -->
+    </test> <!-- TestPACK1 -->
+    <test started-at="2024-09-14T19:54:04 IST" name="TestPACK2" finished-at="2024-09-14T19:54:04 IST" duration-ms="69">
+      <class name="Package2.Test2">
+        <test-method is-config="true" signature="beftest()[pri:0, instance:Package2.Test2@21ec5d87]" started-at="2024-09-14T19:54:04 IST" name="beftest" finished-at="2024-09-14T19:54:04 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beftest -->
+        <test-method is-config="true" signature="befgrp()[pri:0, instance:Package2.Test2@21ec5d87]" started-at="2024-09-14T19:54:04 IST" name="befgrp" finished-at="2024-09-14T19:54:04 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befgrp -->
+        <test-method signature="m1()[pri:0, instance:Package2.Test2@21ec5d87]" started-at="2024-09-14T19:54:04 IST" name="m1" finished-at="2024-09-14T19:54:04 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method signature="m3()[pri:0, instance:Package2.Test2@21ec5d87]" started-at="2024-09-14T19:54:04 IST" name="m3" finished-at="2024-09-14T19:54:04 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+      </class> <!-- Package2.Test2 -->
+      <class name="Package1.Test2">
+        <test-method is-config="true" signature="befClass()[pri:0, instance:Package1.Test2@1eba372c]" started-at="2024-09-14T19:54:04 IST" name="befClass" finished-at="2024-09-14T19:54:04 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befClass -->
+        <test-method signature="m2()[pri:0, instance:Package1.Test2@1eba372c]" started-at="2024-09-14T19:54:04 IST" name="m2" finished-at="2024-09-14T19:54:04 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method is-config="true" signature="AftMeth()[pri:0, instance:Package1.Test2@1eba372c]" started-at="2024-09-14T19:54:04 IST" name="AftMeth" finished-at="2024-09-14T19:54:04 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AftMeth -->
+      </class> <!-- Package1.Test2 -->
+    </test> <!-- TestPACK2 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

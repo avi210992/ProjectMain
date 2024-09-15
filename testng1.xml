@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+		
+	<listeners>
+		<listener class-name = "Utilities.Listeners"/>
+	</listeners>
+
+	
+  	<test thread-count="5" name="Execution1" >
+	<parameter name="param1" value="Avinash" />
+	<parameter name="param2" value= "1" />
+	<parameter name="str" value="Avinash" />
+	<parameter name="int1" value= "1" />
+    <classes>
+       <class name="Package3.Test2">
+			
+		  
+		</class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

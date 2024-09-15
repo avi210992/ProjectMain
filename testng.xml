@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+	<groups>
+		<run>
+			<include name="sanity" />
+		</run>
+	</groups>
+		<listeners>
+		<listener class-name = "Utilities.Listeners"/>
+	</listeners>
+	<parameter name="str" value="Avinash" />
+	<parameter name="int1" value="1" />
+	<test name="TestPACK1">
+		<classes>
+
+			<class name="Package1.Test1">
+
+				<methods>
+					<include name="m1" />
+					<include name="m3" />
+				</methods>
+			</class>
+			<class name="Package2.Test1">
+				<methods>
+					<include name="m1" />
+					<include name="m3" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TestPACK2">
+		<classes>
+			<class name="Package1.Test2">
+
+			</class>
+			<class name="Package2.Test2">
+				<methods>
+					<include name="m1" />
+					<include name="m3" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!--
+Suite -->
+
